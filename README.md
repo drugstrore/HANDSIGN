@@ -2,6 +2,7 @@
 For this project, we tried to detect the hand sign of the user by using mediapipe from Google and using a machine learning model to predict the number from those hand signs and then use it as a password to unlock the door.
 # Dataset
 In this project, we created a dataset by ourselves by taking a photo of our right-hand sign in the different locations for each number 0–9.
+
 For the number ‘0’, we used our fist as the number 0 and we took 15 photos for this hand sign.
 
 For the number ‘1’, we used the sign shown below as the number 1 and we took 40 photos for this hand sign.
