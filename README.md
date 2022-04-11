@@ -60,7 +60,9 @@ After finish build hardware, upload all code and model in the raspberry pi 4 mod
 5. If your password is correct the system will send the signal to unlock the solenoid lock, otherwise, the door will be locked
 
 # Result
-Waiting
+- For checking the result, we tried to split the dataset into training data 80% and testing data 20% of the total dataset. Then we tried to create the confusion matrix and find the accuracy of the model and the results are in confusion_matrix.png, classicfication_report.png.
+- From our model, the accuracy of the system was 100%. So we can convert the user’s hand sign into the number and use it to unlock the solenoid lock and increase the safety of the house and make the user more comfortable.
+
 # Authors
 Karn Kiattikunrat 6414553344 karn.kia@ku.th
 
