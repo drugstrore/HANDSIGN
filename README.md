@@ -3,15 +3,25 @@ For this project, we tried to detect the hand sign of the user by using mediapip
 # Dataset
 In this project, we created a dataset by ourselves by taking a photo of our right-hand sign in the different locations for each number 0–9.
 For the number ‘0’, we used our fist as the number 0 and we took 15 photos for this hand sign.
+
 For the number ‘1’, we used the sign shown below as the number 1 and we took 40 photos for this hand sign.
+
 For the number ‘2’, we used the sign shown below as the number 2 and we took 43 photos for this hand sign.
+
 For the number ‘3’, we used the sign shown below as the number 3 and we took 26 photos for this hand sign.
+
 For the number ‘4’, we used the sign shown below as the number 4 and we took 21 photos for this hand sign.
+
 For the number ‘5’, we used the sign shown below as the number 5 and we took 27 photos for this hand sign.
+
 For the number ‘6’, we used the sign thumbs up as shown below as the number 6 and we took 28 photos for this hand sign.
+
 For the number ‘7’, we used the sign shown below as the number 7 and we took 27 photos for this hand sign.
+
 For the number ‘8’, we used the sign shown below as the number 8 and we took 28 photos for this hand sign.
+
 For the number ‘9’, we used the sign shown below as the number 9 and we took 27 photos for this hand sign.
+
 However, during we took a photo to create a dataset, some photos that we provided can not be detected by mediapipe. Therefore, we need to delete those photos to make our model can work.
 Because of this reason, The total number of images that we used to create the dataset of hand sign numbers have 282 images.
 # METHOD
