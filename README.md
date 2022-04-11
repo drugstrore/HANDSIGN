@@ -62,4 +62,10 @@ If your password is correct the system will send the signal to unlock the soleno
 # Result
 Waiting
 # Authors
-Waiting
+Karn Kiattikunrat 6414553344 karn.kia@ku.th
+
+Yanatorn Chadavadh 6414553361 yanatorn.ch@ku.th
+
+Panupong Sunkom 6414553395 panupong.sunk@ku.th
+
+This article is part of ICT730 Hardware Designs for Ai & IoT TAIST-Tokyo Tech program
