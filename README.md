@@ -34,30 +34,30 @@ We choose the neural network model for our main model. The model is consist of 1
 
 We can interpret our hand-sign as a number by passing our hand into the mediapipe model, extracting the normalized coordinate of our hand from the mediapipe model, and then passing the coordinate to our trained model, the model will predict the class (number 0–9) based on the input coordinate we pass on.
 # HARDWARE
-Raspberry pi 4 model B
+-Raspberry pi 4 model B
 
-Coral edge TPU
+-Coral edge TPU
 
-Webcam camera
+-Webcam camera
 
-Relay control (5V to 12V)
+-Relay control (5V to 12V)
 
-Power supply (12 V)
+-Power supply (12 V)
 
-Solenoid lock (12 V)
+-Solenoid lock (12 V)
 
 # TESTING SYSTEM
 After finish build hardware, upload all code and model in the raspberry pi 4 model B. We test our system with true password and wrong password by using the steps below.
 
-Put your hand in front of the webcam camera and do the sign number
+1. Put your hand in front of the webcam camera and do the sign number
 
-Wait for the system receives the result for each digit of the password
+2. Wait for the system receives the result for each digit of the password
 
-The system will interpret the hand sign into the number and show it on the screen
+3. The system will interpret the hand sign into the number and show it on the screen
 
-Do the second and third steps 3 times (we need 4 digits of the password)
+4. Do the second and third steps 3 times (we need 4 digits of the password)
 
-If your password is correct the system will send the signal to unlock the solenoid lock, otherwise, the door will be locked
+5. If your password is correct the system will send the signal to unlock the solenoid lock, otherwise, the door will be locked
 
 # Result
 Waiting
