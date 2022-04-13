@@ -30,7 +30,7 @@ For the preprocessing part, we pass our hand-sign image dataset into a mediapipe
 
 Then we use those coordinates as a representative of our hand sign image dataset in a CSV file format. Then we put those coordinates as an input for the machine learning model training.
 
-We choose the neural network model for our main model. The model is consist of 1 input layer with 63 input mode, 5 hidden layers with 64,128,256,128, and 64 nodes respectively and 1 output layer with 10 nodes and use the softmax activation function to obtain the probability of the 10 possible class (number 0–9).
+We choose the neural network model for our main model. The model is consist of 1 input layer with 63 input node, 5 hidden layers with 64,128,256,128, and 64 nodes respectively and 1 output layer with 10 nodes and use the softmax activation function to obtain the probability of the 10 possible class (number 0–9).
 
 We can interpret our hand-sign as a number by passing our hand into the mediapipe model, extracting the normalized coordinate of our hand from the mediapipe model, and then passing the coordinate to our trained model, the model will predict the class (number 0–9) based on the input coordinate we pass on.
 # HARDWARE
@@ -59,7 +59,7 @@ After finish build hardware, upload all code and model in the raspberry pi 4 mod
 
 5. If your password is correct the system will send the signal to unlock the solenoid lock, otherwise, the door will be locked
 
-# Result
+# Result evaluation
 - For checking the result, we tried to split the dataset into training data 80% and testing data 20% of the total dataset. Then we tried to create the confusion matrix and find the accuracy of the model and the results are in confusion_matrix.png, classicfication_report.png.
 - From our model, the accuracy of the system was 100%. So we can convert the user’s hand sign into the number and use it to unlock the solenoid lock and increase the safety of the house and make the user more comfortable.
 
